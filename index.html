@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Gawi Bawi Bo</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div id="gameDiv">
+      <div id="top">
+        <button class="buttons" id="rules" onclick="hideRules()">rules</button>
+        <button class="reset" onclick="reset()">reset</button>
+      </div>
+      <div id="game-rules">
+        <ul>
+          <li class="rules">
+            Korean Rock Paper Scissors: 
+            pronounced gawi bawi bo or kai bai bo, the order goes: gawi - scissors, bawi - rock, bo - paper.
+        </li>
+        <li class="rules">
+            The same rules apply: scissors beats paper, rock beats scissors, paper beats rock.
+          </li>
+          
+        </ul>
+      </div>
+
+   <h1 class="gameText" id="title"> Gawi Bawi Bo
+   </h1>
+   <h1 class="gameText" id="playerText"> player: 
+   </h1>
+   <h1 class="gameText" id="computerText"> cpu: 
+   </h1>
+   <h1 class="gameText" id="resultText"> result: 
+   </h1>
+  <div id="buttons">
+   <button class="choiceBtn" id="scissors">scissors</button>
+   <button class="choiceBtn" id="rock">rock</button>
+   <button class="choiceBtn" id="paper">paper</button>
+  </div>
+ </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
