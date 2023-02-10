@@ -1,7 +1,7 @@
 # mod-1
 korean rock paper scissors
 
-live link: 
+live link:  https://mlee0017.github.io/mod-1/
 
 Mod 1: The DOM Based Game
 If you build a story:
@@ -22,6 +22,8 @@ If you build a you Game must have:
 5. Multiple rounds to play - a round must begin, end, and there must be a way to check if the game should continue or the overall game is won or lost - Example: Blackjack: a player takes turns playing a hand versus a computer - the player's hand can either win, lose or tie the dealer. If the player has enough money in their bankroll they can keep playing. A player must be able to win several rounds and increase their bankroll - Example: Connect Four: two (non-computer) players take turns adding chips to the board. The game will check if a player won or if the board is full and there are no more plays possible. A player gets four chips in a row (vertically or horizontally)- one person wins, one loses, there are no further plays in this case 
 
 Approach & Troubleshooting: 
-I wanted to create a game of the Korean version of rock paper scissors. For now, I just created a simple rock paper scissors game versus the computer labeled “cpu” and the user labeled as “player”. I ran into difficulties with understanding the syntax of javascript and the time constraint but I understand more with the amount of times I started over. I also realized I had uploaded to GitHub incorrectly and had to correct and properly upload to a separate repository.
+I wanted to create a game of the Korean version of rock paper scissors. For now, I just created a simple rock paper scissors game versus the computer labeled “cpu” and the user labeled as “player”. I ran into difficulties with understanding the syntax of javascript and the time constraint but I understand more with the amount of times I started over. I also realized I had uploaded to GitHub incorrectly and had to correct and properly upload to a separate repository. I included a reset button, a rules button that will hide the rules when clicked and three buttons for the player choices. The display shows what the computer choice and player choice is while displaying who won. 
+
+![ssgame](https://user-images.githubusercontent.com/120036613/218113695-566b0c6a-da4e-429d-9090-4210272b7667.png)
 
 Stretch Goals: I plan on updating this when I have more time to include the stretch goals. I want to develop this to further include the other two versions of Korean rock paper scissors, see the rules here: https://www.youtube.com/watch?v=e2iPthJg8Ew. There were many things I was close to including but didn’t end up working so I commented them out. 
